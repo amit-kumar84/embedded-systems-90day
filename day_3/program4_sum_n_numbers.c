@@ -37,3 +37,14 @@ int main() {
 
     
 }
+
+
+    if (sum == formula_result) {
+        printf("Callculation verified successfully!\n\n\n\n");
+
+    }
+
+    if (sum == formula_result) {
+        printf("Callculation verified successfully!\n\n\n\n");
+
+    }
