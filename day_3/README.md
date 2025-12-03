@@ -21,29 +21,32 @@
 for (init; condition; increment) {
     // repeated code
 }
-While Loop: Condition-based repetition
+```
+**While Loop**: Condition-based repetition
 
-c
+```c
 while (condition) {
     // repeated code
 }
-Do-While Loop: Execute at least once
+```
+**Do-While Loop**: Execute at least once
 
-c
+```c
 do {
     // repeated code
 } while (condition);
+```
 3. Loop Control
 
-break: Exit loop immediately
+- break: Exit loop immediately
 
-continue: Skip to next iteration
+- continue: Skip to next iteration
 
 4. Switch-Case Statement
 
-Multiple condition checking
+- Multiple condition checking
 
-Cleaner than long if-else chains
+- Cleaner than long if-else chains
 
 📝 Programs Written Today
 #	Program	Concept Practiced	Status
