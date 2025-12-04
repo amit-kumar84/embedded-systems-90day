@@ -21,173 +21,149 @@
 for (init; condition; increment) {
     // repeated code
 }
-While Loop: Condition-based repetition
+```
+**While Loop**: Condition-based repetition
 
-c
+```c
 while (condition) {
     // repeated code
 }
-Do-While Loop: Execute at least once
+```
+**Do-While Loop**: Execute at least once
 
-c
+```c
 do {
     // repeated code
 } while (condition);
+```
 3. Loop Control
 
-break: Exit loop immediately
+- break: Exit loop immediately
 
-continue: Skip to next iteration
+- continue: Skip to next iteration
 
 4. Switch-Case Statement
 
-Multiple condition checking
+- Multiple condition checking
 
-Cleaner than long if-else chains
+- Cleaner than long if-else chains
 
-📝 Programs Written Today
-#	Program	Concept Practiced	Status
-1	Even/Odd Checker	If-else, modulus	✅
-2	Largest of Three	Nested if-else	✅
-3	Number Guessing Game	While loop, break	✅
-4	Sum of N Numbers	While loop, accumulator	✅
-5	Multiplication Table	For loop	✅
-6	Pattern Printing	Nested for loops	✅
-7	Number Pyramid	Advanced nesting	✅
-8	Factorial Calculator	While loop, math	✅
-9	Fibonacci Sequence	For loop, sequences	✅
-10	Menu System	Do-while, switch-case	✅
-Total: 10 programs, all tested!
+## 📝 Programs Written Today
+| # | Program Concept        | Practiced           | Status |
+|---|------------------------|---------------------|--------|
+| 1	|Even/Odd Checker        |	If-else, modulus   | ✅ |
+| 2	|Largest of Three	     |  Nested if-else     |	✅ |
+| 3	|Number Guessing Game    |	While loop, break  |	✅ |
+| 4	|Sum of N Numbers        |	While loop, accumulator |	✅ |
+| 5	|Multiplication Table    |	For loop	| ✅ |
+| 6	|Pattern Printing        |	Nested for loops	| ✅ |
+| 7	|Number Pyramid	         |  Advanced nesting	| ✅ |
+| 8	|Factorial Calculator    |	While loop, math	| ✅ |
+| 9	|Fibonacci Sequence	     |  For loop, sequences | 	✅ |
+| 10|Menu System             |	Do-while, switch-case	| ✅ |
 
-📊 Progress Summary
+**Total: 10 programs, all tested!**
+
+## 📊 Progress Summary
 Programs So Far: 21 total
 
-Day 1: 1 program
+- Day 1: 1 program
 
-Day 2: 10 programs
+- Day 2: 10 programs
 
-Day 3: 10 programs ← TODAY
+- Day 3: 10 programs ← TODAY
 
-GitHub Commits: Consistent daily activity
+**GitHub Commits: Consistent daily activity**
 Concepts Mastered: Variables, operators, control flow, loops
 
-🔑 Key Insights
-When to Use Each Loop
-For Loop:
+## 🔑 Key Insights
+- When to Use Each Loop
+- For Loop:
 
-Know exact iterations (1 to 10, 0 to n)
+- Know exact iterations (1 to 10, 0 to n)
 
-Array traversal (coming soon)
+- Array traversal (coming soon)
 
-Pattern generation
+- Pattern generation
 
-While Loop:
+- While Loop:
 
-Condition-based (continue until condition false)
+- Condition-based (continue until condition false)
 
-User input validation
+- User input validation
 
-Game loops
+- Game loops
 
-Do-While Loop:
+- Do-While Loop:
 
-Menu systems (show menu at least once)
+- Menu systems (show menu at least once)
 
-Input validation (ask at least once)
+- Input validation (ask at least once)
 
-Loop Control Best Practices
-Always ensure loop can terminate
+## Loop Control Best Practices
+**Always ensure loop can terminate**
 
-Avoid infinite loops (unless intentional)
+- Avoid infinite loops (unless intentional)
 
-Update loop variable in body
+- Update loop variable in body
 
-Use break sparingly
+- Use break sparingly
 
-Only for early exit conditions
+- Only for early exit conditions
 
-Don't overuse (makes code hard to read)
+- Don't overuse (makes code hard to read)
 
-Continue for skip logic
+- Continue for skip logic
 
-Skip certain iterations
+- Skip certain iterations
 
-Cleaner than nested if-else
+- Cleaner than nested if-else
 
-🎮 Favorite Programs
-Number Guessing Game - Interactive and fun!
+## 🎮 Favorite Programs
+- Number Guessing Game - Interactive and fun!
 
-Fibonacci Sequence - Classic algorithm
+- Fibonacci Sequence - Classic algorithm
 
-Menu System - Real-world application
+- Menu System - Real-world application
 
-🚀 What's Next (Day 4)
+## 🚀 What's Next (Day 4)
 Tomorrow: Functions & Modular Programming
 
-Function declaration and definition
+- Function declaration and definition
 
-Parameters and return values
+- Parameters and return values
 
-Function prototypes
+- Function prototypes
 
-Scope and lifetime
+- Scope and lifetime
 
-Recursion basics
+- Recursion basics
 
 Expected: 8-10 programs with functions
 Time: 3-3.5 hours
 
-💡 Concepts to Review
- Can write all 3 loop types from memory
+## 💡 Concepts to Review
+**Can write all 3 loop types from memory**
 
- Understand when to use each loop
+ - Understand when to use each loop
 
- Know how break and continue work
+ - Know how break and continue work
 
- Can solve pattern problems
+ - Can solve pattern problems
 
- Understand nested loops
+ - Understand nested loops
 
-🎉 Celebration
-DAY 3 COMPLETE! 🎊
+## 🎉 Celebration
+**DAY 3 COMPLETE! 🎊**
 
 ✅ Mastered if-else statements
 ✅ All 3 loop types learned
 ✅ 10 programs with loops and conditionals
 ✅ Built interactive applications
 ✅ Ready for functions tomorrow!
-LEARNING:
-[✅] Watched Coursera videos on control flow
-[✅] Read GeeksforGeeks articles
-[✅] Understood all loop types
-[✅] Learned break and continue
 
-PROGRAMMING:
-[✅] Program 1: Even/Odd (✅ tested)
-[✅] Program 2: Largest of Three (✅ tested)
-[✅] Program 3: Guessing Game (✅ played 3 times)
-[✅] Program 4: Sum of N (✅ tested)
-[✅] Program 5: Multiplication Table (✅ tested)
-[✅] Program 6: Patterns (✅ tested)
-[✅] Program 7: Pyramid (✅ tested)
-[✅] Program 8: Factorial (✅ tested)
-[✅] Program 9: Fibonacci (✅ tested)
-[✅] Program 10: Menu System (✅ tested all options)
+**Progress: 3/90 days (3.3% complete)**
 
-GITHUB:
-[✅] Day3 folder created
-[✅] Day3 README written
-[✅] All programs committed
-[✅] Portfolio updated
+---
 
-DOCUMENTATION:
-[✅] Screenshots taken (20+ screenshots)
-[✅] Test cases documented
-[✅] Notes written
-[✅] Reflection complete
-
-READY FOR DAY 4:
-[✅] Loop concepts solid
-[✅] Control flow mastered
-[✅] GitHub updated
-[✅] Excited for functions!
+**Next Update**: Day 4 completion report
