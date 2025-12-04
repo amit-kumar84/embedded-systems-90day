@@ -1,0 +1,37 @@
+CONTROL FLOW NOTES - DAY 3
+
+1. IF-ELSE
+   Purpose: Decision making
+   Use when: Need to choose between options
+   Example: if (age >= 18) → adult, else → minor
+
+2. LOOPS - 3 TYPES
+
+   FOR LOOP:
+   - Use when: Know exact number of iterations
+   - Example: Print 1 to 10
+   - Structure: for(i=1; i<=10; i++)
+   
+   WHILE LOOP:
+   - Use when: Condition-based repetition
+   - Example: Keep asking until correct input
+   - Structure: while(condition) { }
+   
+   DO-WHILE LOOP:
+   - Use when: Must execute at least once
+   - Example: Menu - show menu first, then check choice
+   - Structure: do { } while(condition);
+
+3. LOOP CONTROL
+
+   BREAK:
+   - Exits loop immediately
+   - Use when: Found what you're looking for
+   
+   CONTINUE:
+   - Skip current iteration, go to next
+   - Use when: Skip certain values
+
+4. NESTED LOOPS
+   - Loop inside another loop
+   - Use for: 2D patterns, tables, grids
