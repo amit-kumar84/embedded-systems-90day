@@ -1,0 +1,47 @@
+POINTER FUNDAMENTALS
+
+1. ADDRESS-OF OPERATOR (&)
+   int x = 5;
+   int *ptr = &x;
+   
+   &x  → Address of x (example: 0x7fff5fbff8ac)
+   ptr → Stores that address
+   
+   Common output: 0x7fff... (hexadecimal)
+
+2. DEREFERENCE OPERATOR (*)
+   int *ptr = &x;
+   int value = *ptr;  // Gets value at that address
+   
+   *ptr = 20;  // Changes value at that address
+   // Now x is also 20
+
+3. POINTER DECLARATION
+   int *ptr;        // Pointer to integer
+   float *fptr;     // Pointer to float
+   char *cptr;      // Pointer to character
+   
+   The * is part of declaration, not an operator here
+
+4. NULL POINTER
+   int *ptr = NULL;  // Pointer to nothing (safe)
+   
+   Always check: if (ptr != NULL) before using
+
+5. POINTER ARITHMETIC
+   int arr = {10, 20, 30, 40, 50};
+   int *ptr = &arr;
+   
+   ptr++  → Points to next element
+   ptr--  → Points to previous element
+   ptr+2  → Points 2 elements forward
+   *(ptr+1) → Value at second element (20)
+
+6. MEMORY ALLOCATION (Dynamic)
+   int *ptr = malloc(sizeof(int));
+   // malloc allocates memory on heap
+   
+   *ptr = 100;
+   
+   free(ptr);  // Always deallocate!
+   ptr = NULL; // Safe after freeing
